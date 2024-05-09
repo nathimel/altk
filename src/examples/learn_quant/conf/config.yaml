@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+  - universe: base
+  - grammar: base
+
+output: "learn_quant/outputs/"
+
+mode: 
+  - generate
+
+save: true
+
+measures:
+  target: "inclusive/M3_X4_d3/"
+  monotonicity:
+    - all
